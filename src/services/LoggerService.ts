@@ -1,4 +1,5 @@
 import { LoggerService } from '../interfaces/LoggerService';
+export { LoggerService };
 import fs from 'fs';
 import path from 'path';
 import config from '../config/config';

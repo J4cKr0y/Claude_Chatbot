@@ -1,7 +1,7 @@
-import { Chatbot } from '../src/Chatbot';
-import { ChatService } from '../src/interfaces/ChatService';
-import { UserInterface } from '../src/interfaces/UserInterface';
-import { LoggerService } from '../src/services/LoggerService';
+import { Chatbot } from '../../src/Chatbot';
+import { ChatService } from '../../src/interfaces/ChatService';
+import { UserInterface } from '../../src/interfaces/UserInterface';
+import { LoggerService } from '../../src/services/LoggerService';
 
 // Mocks
 class MockChatService implements ChatService {
