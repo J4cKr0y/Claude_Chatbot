@@ -1,0 +1,34 @@
+claude-chatbot/
+│
+├── src/
+│   ├── interfaces/
+│   │   ├── ChatService.ts
+│   │   └── UserInterface.ts
+│   │
+│   ├── services/
+│   │   ├── AnthropicChatService.ts
+│   │   └── LoggerService.ts
+│   │
+│   ├── interfaces/
+│   │   ├── ChatService.ts
+│   │   └── UserInterface.ts
+│   │
+│   ├── ui/
+│   │   └── ConsoleUserInterface.ts
+│   │
+│   ├── config/
+│   │   └── config.ts
+│   │
+│   ├── models/
+│   │   └── Message.ts
+│   │
+│   └── Chatbot.ts
+│
+├── tests/
+│   ├── chatbot.test.ts
+│   └── services/
+│       └── anthropicService.test.ts
+│
+├── package.json
+├── tsconfig.json
+└── .env
