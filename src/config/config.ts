@@ -10,6 +10,7 @@ dotenv.config();
 const config = {
   // Clé API pour le service Anthropic
   apiKey: process.env.ANTHROPIC_API_KEY || '',
+  apiGroqKey: process.env.GROK_API_KEY || '',
   
   // Modèle Claude à utiliser
   model: process.env.CLAUDE_MODEL || 'claude-3-sonnet-20240229',
