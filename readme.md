@@ -20,6 +20,9 @@ Un chatbot intelligent utilisant l'API Claude.ai, construit avec Node.js pour de
 # Installer les dépendances
 npm install @anthropic-ai/sdk axios dotenv inquirer @langchain/core
 ```
+# Insérez votre clé
+Remplissez le fichier exemple.env avec votre clé API Claude, et renommez-le .env
+
 ## Lancement
 ```bash
 npm start
